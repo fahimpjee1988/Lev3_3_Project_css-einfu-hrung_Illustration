@@ -3,11 +3,68 @@ Font: Merriweather, Lato
 Farbe: #202020, #24bff2, #fff, #F5FBFE.
 Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 body{
     background-color: #fff;
-    font-family: ;
+    font-family: 'Merriweather', serif;
 }
-section{
-    border: 2px solid;
-    border-color: blue;
+
+#header{
+    position: relative;
+    text-decoration: none;
+    text-align: right;
+
+}
+.navlist li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+   
+    
+}
+.navlist li a{
+    text-decoration: none;
+    
+    
+}
+.navlist li a:visited{
+    text-decoration: underline;
+    color: black;    
+}
+.navlist li a:hover{
+    text-decoration: underline;
+}
+
+.absurd{
+    padding-top:88px;
+    padding-left:10%;
+    width: 50%;
+    font-size: 40px;
+}
+.para{
+    padding-left:10%;
+    width: 50%;
+}
+
+.but1{
+    margin-left:10%;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    font-size: 20px;
+    padding: 15px;
+}
+.but2{
+    margin-left:0%;
+    
+    border-radius: 5%;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+#first{
+    height: 80vh; background:url(https://media.giphy.com/media/J5YSj3lPCWjE6tbu0b/giphy.gif) right/contain no-repeat;
+    padding-left: 10%;
 }
