@@ -8,6 +8,9 @@ Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
 body{
     background-color: #fff;
     font-family: 'Merriweather', serif;
+   margin-left:5%;
+   margin-right:5%;
+   
 }
 
 #header{
@@ -37,23 +40,30 @@ body{
 }
 
 .absurd{
-    padding-top:88px;
-    padding-left:10%;
-    width: 50%;
+   
+    width: 500px;
     font-size: 40px;
+    padding-top:20%;
+  
+  
 }
 .para{
-    padding-left:10%;
-    width: 50%;
+    
+    width: 300px;
+    font-size: 15px;
+   
+    
+
 }
 
 .but1{
-    margin-left:10%;
+    
     background-color: black;
     color: white;
     border-radius: 5%;
     font-size: 20px;
     padding: 15px;
+
 }
 .but2{
     margin-left:0%;
@@ -65,6 +75,100 @@ body{
 }
 
 #first{
-    height: 80vh; background:url(https://media.giphy.com/media/J5YSj3lPCWjE6tbu0b/giphy.gif) right/contain no-repeat;
-    padding-left: 10%;
+    height: 80vh; background:url(/assets/img/illustration1.gif) right/contain no-repeat;
+   padding-bottom: 10%;
+    
 }
+
+
+
+#sec2{
+    width: 400px;
+    padding-left: 50%;
+    font-size: 20px;
+    height: 70vh;background: url(/assets/img/illustration2.png) left/contain no-repeat;
+}
+#sec3{
+    width: 400px;
+    padding-right: 60%;
+    font-size: 20px;
+    height: 80vh; background: url(/assets/img/illustration3.png) right/contain no-repeat;
+}
+
+#sec4{
+    text-align: center;
+   
+}
+
+
+
+#sec5{
+    text-align: center;
+   
+    
+}
+.sec5h2{
+    font-size: 40px;
+    padding-top: 10%;
+    
+}
+.sec5p{
+    padding-bottom:10%
+}
+
+#sec6{
+    text-align: center;
+    
+}
+#block{
+    width:200px;
+    border: 2px solid black;
+    padding:24px;
+   margin: 0 auto;
+   background-color: rgb(218, 234, 240);
+}
+
+#but3{
+    border-radius: 10px;
+    background-color: #55acee;
+    padding:20px;
+    color: white;
+    
+}
+.absurd2{
+    font-size: 40px;
+}
+
+.pics1 {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+  .column2{
+    flex: 50%;
+    padding: 10px;
+    
+  }
+  
+  .illustration{
+      font-size: 40px;
+      margin: 6% auto;
+      width: 500px;
+  }
+  .illusp{
+      font-size: 30;
+      padding-bottom: 10%;
+      margin: 0% auto;
+      width: 400px;
+  }
+  .money{
+      font-size: 35px;
+  }
+  .peryear{
+      color: grey;
+  }
