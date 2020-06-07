@@ -172,3 +172,36 @@ body{
   .peryear{
       color: grey;
   }
+
+  .para2{
+      color:grey;
+  }
+  .foot{
+      display: flex;
+      list-style: none;
+      
+      
+
+  }
+  .footanchor{
+      padding-left:44%;
+  }
+  .fb{
+      color: #3b5998;
+      font-size: larger;
+  }
+  .ig{
+      color: #fcaf45;
+      font-size: larger;
+
+  }
+  .tw{
+      color: #55acee;
+      font-size: larger;
+
+  }
+  .yt{
+      color: #c4302b;
+      font-size: larger;
+
+  }
